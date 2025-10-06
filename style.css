@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0b14;
+    color: #fcfcfc;
+    font-family: sans-serif;
+}
+/* font-name: --> Courier */ 
+p {
+    line-height: 1.5;
+    color: #8b8599;
+}
+
+.header {
+    text-align: center;
+    color: #8b8599;
+    background-color: #1a1525;
+    border-bottom: 2px solid #696572;
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 3px solid #57c5c6;
+    margin: 10px;
+}
+
+/* article {
+    width: 400px;
+} */
+h3 {
+    border-bottom: 2px solid #57c5c6;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* .about-section p {
+    background-color: #1a1525;
+    padding: 30px 20px;
+    margin-top: 15px;
+    border: 2px solid #696572;
+    border-radius: 5px;
+} */
+
+.box {
+    background-color: #1a1525;
+    padding: 30px 20px;
+    margin-top: 15px;
+    border: 2px solid #696572;
+    border-radius: 5px;
+}
+
+
+/* persian blue color code: --> #57c5c6 */
+#profile-name {
+    color: #57c5c6;
+    font-size: 2em;
+    margin-top: 10px;
+}
+/* #role {
+    font-size: 1.2em;
+    margin-top: 10px;
+} */
+.header h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+#location {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+.job-title {
+    color: #57c5c6;
+}
+
+.position-situation p {
+    margin-left: 15px;
+}
+.position-situation {
+    margin-top: 10px;
+}
+.position-situation:first-child {
+    border-left: 4px solid #57c5c6;
+    display: inline-block;
+}
+.job-location {
+    font-family: Courier;
+}

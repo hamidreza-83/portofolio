@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudo Space</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <img src="/images/profile-img.jpg" width="150px">
-        <h1>HamidReza Fatemi</h1>
-        <h3>DevOps Engineer</h3>
-        <p>📍 Iran-Mashhad</p>
+        <h1 id="profile-name">HamidReza Fatemi</h1>
+        <h3 id="role">DevOps Engineer</h3>
+        <p id="location">📍 Iran-Mashhad</p>
     </div>
-    <h3>About me</h3>
-    <p>Hi i'm and entusiatic cs student in montazeri technical university, im intreasted in Linux and free software </p>
+    <article>
+    <div class="about-section">
+        <h3>About me</h3>
+    <p class="box">Hi i'm and entusiatic cs student in montazeri technical university, im intreasted in Linux and free software </p>
+    </div>
     <h3>Experience</h3>
-    <ul>
-        <li>
-            <p>Backend intern</p>
-            <p>part software group</p>
+    <ul class="box">
+        <li class="position-situation">
+            <p class="job-title">freelance</p>
+            <p class="job-location">self employed</p>
+        </li>
+        <li class="position-situation">
+            <p class="job-title">Backend intern</p>
+            <p class="job-location">part software group</p>
         </li>
     </ul>
     <h3>Skills</h3>
-    <ul>
+    <ul class="box">
         <li>html</li>
         <li>css</li>
         <li>javaScript</li>
@@ -33,18 +44,21 @@
         <li>git</li>
     </ul>
     <h3>Projects</h3>
-    <ul>
+    <ul class="box">
         <li>simple banking system (java)</li>
         <li>http web server (nodejs)</li>
         <li>movie list (kotlin)</li>
         <li>website portofolio (basic web code languages)</li>
     </ul>
     <h3>Contact</h3>
+    <div class="box">
     <a href="mailto:amidrezafatemi@gmail.com">📧 hamidrezafatemi383@gmail.com</a> 
     <br><br>
     <a><img src="/images/github.png" width="20px"> GitHub</a> <br>
     <a><img src="/images/linkedin.png" width="20px"> LinkedIn</a> <br>
     <a><img src="/images/telegram.png" width="20px"> Telegram</a>
+    </div>
+    </article>
 
 </body>
 </html>
